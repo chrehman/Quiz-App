@@ -40,4 +40,4 @@ jobs:
       
     
       - name: Deploy surge
-        run: surge ./build WebAnimationAR.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build QuizAppAR.surge.sh --token ${{ secrets.SURGE_TOKEN }}
